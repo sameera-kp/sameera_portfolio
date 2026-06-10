@@ -25,7 +25,7 @@ export default function About() {
               My goal is always to write clean, optimized code that boosts performance and provides a flawless user experience. I love learning new technologies and adapting quickly to fast-paced agile development environments.
             </Typography>
           </Grid>
-          <Grid item={{ xs: 12 }} md={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+          <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <Card sx={{ bgcolor: '#112240', border: '1px solid #233554', borderRadius: 4, p: 3, textAlign: 'center', width: '100%' }}>
               <Avatar sx={{ bgcolor: 'rgba(100, 255, 218, 0.1)', color: '#64ffda', width: 60, height: 60, mx: 'auto', mb: 2 }}>
                 <Place />
