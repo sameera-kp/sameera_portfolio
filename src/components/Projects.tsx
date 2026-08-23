@@ -12,6 +12,12 @@ export default function Projects() {
       githubUrl: 'https://github.com/sameera-kp/CRM_APP.git' 
     },
     { 
+      name: 'Kitchen Display System (KDS)', 
+      desc: 'Real-time kitchen management app enabling order updates and status tracking between counter and kitchen staff using WebSockets.', 
+      tech: ['FastAPI', 'Python', 'React', 'WebSockets', 'SQLAlchemy'],
+      githubUrl: 'https://github.com/sameera-kp/restaurant-kds-project.git' 
+    },
+    { 
       name: 'Nexus Commerce Engine', 
       desc: 'High-performance commerce platform with complex filtering, search, and dynamic layout routing using GraphQL for efficient fetching.', 
       tech: ['Next.js 15', 'GraphQL', 'TypeScript', 'App Router'],
@@ -38,7 +44,7 @@ export default function Projects() {
       </Typography>
       <Grid container spacing={3}>
         {projectsList.map((project, index) => (
-         <Grid item xs={12} md={6} key={index}>
+          <Grid item xs={12} md={6} key={index}>
             <Card sx={{ bgcolor: '#112240', border: '1px solid #233554', height: '100%', display: 'flex', flexDirection: 'column', justifyContent: 'space-between', borderRadius: 3, p: 1 }}>
               <CardContent>
                 <Typography variant="h6" sx={{ color: '#ccd6f6', fontWeight: 'bold', mb: 1.5 }}>{project.name}</Typography>
