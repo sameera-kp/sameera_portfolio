@@ -41,7 +41,7 @@ export default function Hero() {
                             </Button>
 
                             {/* DOWNLOAD RESUME BUTTON */}
-                            <Button href="/resume.pdf" download variant="outlined" startIcon={<Download />} sx={{ borderColor: '#64ffda', color: '#64ffda', px: 4, py: 1.5, '&:hover': { borderColor: '#64ffda', bgcolor: 'rgba(100, 255, 218, 0.1)' }, textTransform: 'none' }}>
+                            <Button href="/sameera_portfolio/resume.pdf" download variant="outlined" startIcon={<Download />} sx={{ borderColor: '#64ffda', color: '#64ffda', px: 4, py: 1.5, '&:hover': { borderColor: '#64ffda', bgcolor: 'rgba(100, 255, 218, 0.1)' }, textTransform: 'none' }}>
                                 Download Resume
                             </Button>
                         </Box>
@@ -53,7 +53,7 @@ export default function Hero() {
                     <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6, delay: 0.2 }}>
                         <Box sx={{ position: 'relative', '&::after': { content: '""', display: 'block', position: 'absolute', width: '100%', height: '100%', border: '2px solid #64ffda', borderRadius: '16px', top: '15px', left: '15px', zIndex: -1, transition: '0.3s', }, '&:hover::after': { top: '10px', left: '10px' } }}>
                             <Avatar
-                                src="/my-photo.jpeg"
+                                src="/sameera_portfolio/my-photo.jpeg"
                                 alt="Sameera Manaf"
                                 variant="rounded"
                                 sx={{
