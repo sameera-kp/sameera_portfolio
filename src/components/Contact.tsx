@@ -47,8 +47,8 @@ export default function Contact() {
         <Grid container spacing={4}>
           <Grid item xs={12} md={5} sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 3 }}>
             <Box>
-              <Button href="mailto:zakraya60@gmail.com" startIcon={<Email />} sx={{ color: '#8892b0', '&:hover': { color: '#64ffda' }, textTransform: 'none', fontSize: '1rem' }}>
-                zakraya60@gmail.com
+              <Button href="mailto:sameeramanaf55@gmail.com" startIcon={<Email />} sx={{ color: '#8892b0', '&:hover': { color: '#64ffda' }, textTransform: 'none', fontSize: '1rem' }}>
+                sameeramanaf55@gmail.com
               </Button>
             </Box>
             <Box>
