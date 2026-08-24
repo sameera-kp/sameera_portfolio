@@ -18,12 +18,13 @@ export default function About() {
         </Typography>
         <Grid container spacing={4}>
        <Grid item xs={12} md={7}>
-            <Typography variant="body1" sx={{ color: '#8892b0', lineHeight: 1.7, mb: 2 }}>
-              I thrive at the intersection of frontend aesthetics and backend logic. Currently, I'm working on a live CRM platform as part of a team, delivering real-world full-stack features end-to-end.
-            </Typography>
-            <Typography variant="body1" sx={{ color: '#8892b0', lineHeight: 1.7 }}>
-              My goal is always to write clean, optimized code that boosts performance and provides a flawless user experience. I love learning new technologies and adapting quickly to fast-paced agile development environments.
-            </Typography>
+            <Typography variant="body1" sx={{ color: '#8892b0', mb: 2, lineHeight: 1.7 }}>
+  I thrive at the intersection of frontend aesthetics and backend logic. As a Full Stack Developer, I specialize in building responsive web applications using <span style={{ color: '#64ffda' }}>React.js, Next.js, and TypeScript</span>, backed by powerful APIs powered by <span style={{ color: '#64ffda' }}>Python and Django REST Framework</span>.
+</Typography>
+
+<Typography variant="body1" sx={{ color: '#8892b0', lineHeight: 1.7 }}>
+  Recently, I have been building dynamic real-time web solutions, including a live <span style={{ color: '#64ffda' }}>Kitchen Display System (KDS)</span> with WebSocket integrations for instant data sync, as well as freelancing on client-focused full-stack projects. My focus is always on writing clean, scalable code that delivers high performance and a seamless user experience.
+</Typography>
           </Grid>
           <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
             <Card sx={{ bgcolor: '#112240', border: '1px solid #233554', borderRadius: 4, p: 3, textAlign: 'center', width: '100%' }}>
