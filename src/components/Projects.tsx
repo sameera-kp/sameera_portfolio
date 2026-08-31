@@ -1,10 +1,17 @@
 'use client';
 import React from 'react';
 import { Container, Typography, Grid, Card, CardContent, CardActions, Button, Box, Chip } from '@mui/material';
-import { GitHub } from '@mui/icons-material';
+import { GitHub, Launch } from '@mui/icons-material';
 
 export default function Projects() {
   const projectsList = [
+    { 
+      name: 'Atelier - Luxury Interior Design Studio', 
+      desc: 'High-end responsive portfolio website featuring dynamic video banners, custom image sliders, and an interactive Before/After renovation showcase.', 
+      tech: ['Next.js 15', 'React', 'Tailwind CSS', 'Framer Motion'],
+      githubUrl: 'https://github.com/sameera-kp', // ഇവിടെ നിങ്ങളുടെ ഗിത്ഹബ് ലിങ്ക് നൽകാം
+      liveUrl: 'https://sameera-portfolio-gamma.vercel.app/' 
+    },
     { 
       name: 'CRM Live Platform', 
       desc: 'Full stack CRM with Deals, Leads, Contacts & Companies modules. Implemented advanced filters, pagination, and lead-to-deal conversion flows.', 
@@ -55,17 +62,31 @@ export default function Projects() {
                   ))}
                 </Box>
               </CardContent>
-              <CardActions sx={{ px: 2, pb: 2 }}>
-                <Button 
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  size="small" 
-                  startIcon={<GitHub />} 
-                  sx={{ color: '#ccd6f6', '&:hover': { color: '#64ffda' }, textTransform: 'none' }}
-                >
-                  Code
-                </Button>
+              <CardActions sx={{ px: 2, pb: 2, display: 'flex', gap: 2 }}>
+                {project.githubUrl && (
+                  <Button 
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="small" 
+                    startIcon={<GitHub />} 
+                    sx={{ color: '#ccd6f6', '&:hover': { color: '#64ffda' }, textTransform: 'none' }}
+                  >
+                    Code
+                  </Button>
+                )}
+                {project.liveUrl && (
+                  <Button 
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    size="small" 
+                    startIcon={<Launch />} 
+                    sx={{ color: '#64ffda', '&:hover': { color: '#fff' }, textTransform: 'none' }}
+                  >
+                    Live Demo
+                  </Button>
+                )}
               </CardActions>
             </Card>
           </Grid>
