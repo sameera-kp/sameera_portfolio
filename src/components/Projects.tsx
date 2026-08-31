@@ -10,7 +10,7 @@ export default function Projects() {
       desc: 'High-end responsive portfolio website featuring dynamic video banners, custom image sliders, and an interactive Before/After renovation showcase.', 
       tech: ['Next.js 15', 'React', 'Tailwind CSS', 'Framer Motion'],
       githubUrl: 'https://github.com/sameera-kp', 
-      liveUrl: 'https://sameera-portfolio-gamma.vercel.app/' 
+      liveUrl: 'https://atelier-website-ten.vercel.app/' 
     },
     { 
       name: 'CRM Live Platform', 
