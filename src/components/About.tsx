@@ -11,7 +11,7 @@ export default function About() {
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.6 }} 
       >
         <Typography variant="h4" sx={{ color: '#ccd6f6', fontWeight: 700, mb: 4 }}>
           <span style={{ color: '#64ffda', fontFamily: 'monospace', fontSize: '1.5rem', marginRight: '10px' }}>01.</span> About Me
