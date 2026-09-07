@@ -22,7 +22,8 @@ export default function Projects() {
       name: 'Kitchen Display System (KDS)', 
       desc: 'Real-time kitchen management app enabling order updates and status tracking between counter and kitchen staff using WebSockets.', 
       tech: ['FastAPI', 'Python', 'React', 'WebSockets', 'SQLAlchemy'],
-      githubUrl: 'https://github.com/sameera-kp/restaurant-kds-project.git' 
+      githubUrl: 'https://github.com/sameera-kp/restaurant-kds-project.git',
+      liveUrl: 'https://restaurant-kds-project-1.onrender.com/' 
     },
     { 
       name: 'Nexus Commerce Engine', 
