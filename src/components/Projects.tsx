@@ -6,10 +6,17 @@ import { GitHub, Launch } from '@mui/icons-material';
 export default function Projects() {
   const projectsList = [
     { 
+      name: 'Loop & Bloom - Handmade Crochet Boutique', 
+      desc: 'Handmade crochet boutique e-commerce website featuring curated collections, product categories, interactive shop filters, and custom orders support.', 
+      tech: ['HTML5', 'CSS3', 'JavaScript', 'Responsive Design'],
+      githubUrl: 'https://github.com/sameera-kp/Loop-Bloom-website.git', 
+      liveUrl: 'https://loop-bloom-website.vercel.app/' 
+    },
+    { 
       name: 'Atelier - Luxury Interior Design Studio', 
       desc: 'High-end responsive portfolio website featuring dynamic video banners, custom image sliders, and an interactive Before/After renovation showcase.', 
       tech: ['Next.js 15', 'React', 'Tailwind CSS', 'Framer Motion'],
-      githubUrl: 'https://github.com/sameera-kp', 
+      githubUrl: 'https://github.com/sameera-kp/atelier-website.git', 
       liveUrl: 'https://atelier-website-ten.vercel.app/' 
     },
     { 
@@ -24,18 +31,6 @@ export default function Projects() {
       tech: ['FastAPI', 'Python', 'React', 'WebSockets', 'SQLAlchemy'],
       githubUrl: 'https://github.com/sameera-kp/restaurant-kds-project.git',
       liveUrl: 'https://restaurant-kds-project-1.onrender.com/' 
-    },
-    { 
-      name: 'Nexus Commerce Engine', 
-      desc: 'High-performance commerce platform with complex filtering, search, and dynamic layout routing using GraphQL for efficient fetching.', 
-      tech: ['Next.js 15', 'GraphQL', 'TypeScript', 'App Router'],
-      githubUrl: 'https://github.com/sameera-kp/nexus-commerce-engine.git'
-    },
-    { 
-      name: 'Health Track Pro', 
-      desc: 'Healthcare management system focusing on secure patient data handling and a real-time responsive appointment scheduling interface.', 
-      tech: ['React', 'Python', 'Prisma', 'PostgreSQL'],
-      githubUrl: 'https://github.com/sameera-kp/health-track-pro.git' 
     },
     { 
       name: 'Expense Tracker', 
